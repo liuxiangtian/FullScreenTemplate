@@ -24,10 +24,12 @@ public class ${activityClass} extends ${superClass} {
 ```
 
 1. `${activityClass}` 表示一个变量，这样就可以指定生成活动的名称。
-2. `${activityToLayout(activityClass)}` 其中`activityToLayout`是一个内置函数，将类名转为布局文件名。
+2. `${activityToLayout(activityClass)}` 其中`activityToLayout`是一个内置函数，将类名转为布局文件名。 
 3. `FreeMarker`还可以使用 `if` 和 `include` 语法。
 
 创建模版必须熟悉[模版的目录结构](http://freemarker.org/docs/dgui_quickstart_basics.html)，也可以参考已存在的模版。
+
+### 一些注意点
 
 1.template.xml 中 parameter 标签的类型 type 可以是 string, boolean, enum 以及 separator，将被渲染成不同的控件。
 
