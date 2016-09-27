@@ -15,12 +15,12 @@ public class ${activityClass} extends ${superClass} {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-<#if generateLayout>
-        setContentView(R.layout.${layoutName});
-</#if>
-<#include "../../../../common/jni_code_usage.java.ftl">
+        <#if generateLayout>
+            setContentView(R.layout.${layoutName});
+        </#if>
+        <#include "../../../../common/jni_code_usage.java.ftl">
     }
-<#include "../../../../common/jni_code_snippet.java.ftl">
+    <#include "../../../../common/jni_code_snippet.java.ftl">
 }
 ```
 
