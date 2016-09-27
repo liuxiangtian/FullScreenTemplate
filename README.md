@@ -1,3 +1,4 @@
+![1](https://github.com/liuxiangtian/FullScreenTemplate/blob/master/template_blank_activity.png?raw=true)
 
 一个 `Android Studio Project Template` 可以看成是一个 MVC 架构，选择的模版类型和输入的参数最终决定了输出工程和目录和文件内容。
 
